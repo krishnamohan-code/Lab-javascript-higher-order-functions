@@ -64,4 +64,10 @@ findSquareOfNumbers=(myArray)=>{
 }
 console.log(findSquareOfNumbers(myArray));
 
-
+//anonimous function for multipication
+myArray=[2, 3, 5, 10];
+multiply =(myArray)=>{return myArray.reduce((intialvalue,item)=>{
+    return intialvalue*item;
+},1)
+}
+console.log(multiply(myArray));
